@@ -40,7 +40,6 @@ import {
           },
           body: JSON.stringify(formData),
         });
-  
         const data = await res.json();
   
         if (!res.ok) {
